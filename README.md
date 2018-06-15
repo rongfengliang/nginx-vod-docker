@@ -26,6 +26,12 @@ open http://hostip  for test
 - Thumbnail: http://hostip/thumb/<videosname>/thumb-<index>.jpg
 ```
 
+## images
+
+![](./images/1.png)
+![](./images/2.png)
+![](./images/3.png)
+
 ## docs
 
 - [nginx-vod-module](https://github.com/kaltura/nginx-vod-module)
