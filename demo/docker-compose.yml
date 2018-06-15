@@ -1,0 +1,9 @@
+version: "3"
+services:
+  vod:
+    image: dalongrong/myvod-nginx
+    ports:
+     - 80:80
+    volumes:
+       - ./videos:/opt/videos
+       - ./nginx.conf:/usr/local/nginx/conf/nginx.conf
